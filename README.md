@@ -1,0 +1,29 @@
+# LSImageCompression
+
+[![CI Status](https://img.shields.io/travis/dennismary/LSImageCompression.svg?style=flat)](https://travis-ci.org/dennismary/LSImageCompression)
+[![Version](https://img.shields.io/cocoapods/v/LSImageCompression.svg?style=flat)](https://cocoapods.org/pods/LSImageCompression)
+[![License](https://img.shields.io/cocoapods/l/LSImageCompression.svg?style=flat)](https://cocoapods.org/pods/LSImageCompression)
+[![Platform](https://img.shields.io/cocoapods/p/LSImageCompression.svg?style=flat)](https://cocoapods.org/pods/LSImageCompression)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+LSImageCompression is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'LSImageCompression'
+```
+
+## Author
+
+dennismary, w1605356103@163.com
+
+## License
+
+LSImageCompression is available under the MIT license. See the LICENSE file for more info.
