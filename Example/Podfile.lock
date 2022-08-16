@@ -1,0 +1,16 @@
+PODS:
+  - LSImageCompression (0.1.0)
+
+DEPENDENCIES:
+  - LSImageCompression (from `../`)
+
+EXTERNAL SOURCES:
+  LSImageCompression:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LSImageCompression: e9c137ed613180761f3057fc774830685a9644aa
+
+PODFILE CHECKSUM: c6dc1afad1030fa1a2de73db98f11661b663fe87
+
+COCOAPODS: 1.11.3

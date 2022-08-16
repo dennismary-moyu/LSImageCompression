@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import LSImageCompression
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        guard let image = UIImage.init(named: "urls_3") else { return }
+        print(image.pngData()!)
+        
+        let imageData = image.compressToData()
+        print(imageData)
+        
+        imageView.image = image.compressToImage()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
